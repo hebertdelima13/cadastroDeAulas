@@ -1,0 +1,36 @@
+.button {
+    background: #000;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background: #000;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #50E3A4;
+}
+
+.navbar a {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #50E3A4;
+    text-decoration: underline;
+}
+
+.navbar i {
+    margin-right: 0.4rem;
+}

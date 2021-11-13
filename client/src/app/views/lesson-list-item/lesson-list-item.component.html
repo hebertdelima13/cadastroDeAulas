@@ -1,0 +1,12 @@
+<div class="card" >
+    <div class="card-body">
+        <h1 class="card-title" [innerHTML]="lesson.title"></h1>
+        <p class="card-text" [innerHTML]="lesson.description"></p>
+        <span>Cadastrado em:</span>
+        <p class="card-createdAt" [innerHTML]="lesson.createdAt"></p>
+        <div class="options">
+            <i [routerLink]="['/lesson/edit', lesson.id]" class="bi-pencil-square"></i>
+            <i (click)="remove(lesson)" class="bi-trash-fill"></i>
+        </div>
+    </div>
+</div>

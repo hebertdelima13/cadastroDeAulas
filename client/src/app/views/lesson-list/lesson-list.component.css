@@ -1,0 +1,37 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.alert {
+    background: #50E3A4;
+    color: #000;
+    font-weight: 700;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background: #000;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #50E3A4;
+}
+
+.navbar a {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #50E3A4;
+    text-decoration: underline;
+}
+
+.navbar i {
+    margin-right: 0.4rem;
+}

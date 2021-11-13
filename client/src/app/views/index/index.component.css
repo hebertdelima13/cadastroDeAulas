@@ -1,0 +1,59 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+  
+.container-card {
+    margin: auto;
+    width: 400px;
+}
+
+input {
+    border: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #000;
+}
+
+.nav-link.active {
+    border-bottom: 3px solid #000;
+}
+
+.input-group-text {
+    background: #000;
+    border: none;
+}
+
+.book {
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    color: #fff;
+}
+
+.bi-book {
+    font-size: 8rem;
+    color: #000;
+}
+
+.button-login {
+    width: 100%;
+    background: #000;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #fff;
+}
